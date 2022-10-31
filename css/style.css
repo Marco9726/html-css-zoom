@@ -71,6 +71,8 @@ footer{
 footer .row{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 div.col-left{
@@ -81,9 +83,17 @@ footer .col-left,.col-center{
     color: white;
 }
 
+footer .col-center .row .col{
+    margin-left: 10px;
+}
+
 .icon{
     font-size: 25px;
     text-align: center;
+}
+
+.text-icon{
+    font-size: 12px;
 }
 
 .arrow{
@@ -93,4 +103,7 @@ footer .col-left,.col-center{
     margin: 15px;
 }
 
+#green{
+    color: rgb(18, 179, 18);
+}
 
