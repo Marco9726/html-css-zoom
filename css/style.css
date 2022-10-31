@@ -107,3 +107,11 @@ footer .col-center .row .col{
     color: rgb(18, 179, 18);
 }
 
+footer .row .col-right{
+    background-color: rgb(92, 92, 92);
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+    color: red;
+}
+
