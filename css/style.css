@@ -8,6 +8,7 @@
 
 a{
     text-decoration: none;
+    color: white;
 }
 /* main  */
 main{
@@ -28,7 +29,6 @@ main{
 }
 
 .main-container{
-    background-color: yellow;
     width: 95vw;
     margin: 0 auto;
     padding: 20px 20px 0px;
@@ -64,4 +64,33 @@ img{
 footer{
     background-color: rgb(30, 30, 30);
     height: 80px;
+    display: flex;
+    align-items: center;
 }
+
+footer .row{
+    display: flex;
+    align-items: center;
+}
+
+div.col-left{
+    padding-left: 10px;
+}
+
+footer .col-left,.col-center{
+    color: white;
+}
+
+.icon{
+    font-size: 25px;
+    text-align: center;
+}
+
+.arrow{
+    display: inline-block;
+    line-height: 100%;
+    transform: rotate(-90deg);
+    margin: 15px;
+}
+
+
